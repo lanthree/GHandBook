@@ -1,6 +1,6 @@
 package config
 
-// DataDirPath 数据存放目录
+// DataDirPath 数据存放目录 这个要做成可配置的
 var DataDirPath string = "./data"
 
 // DataVersionFile 数据版本号

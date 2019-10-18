@@ -26,7 +26,6 @@ func Load() {
 	version := getDataVersion(config.DataDirPath)
 	log.Println("Data Version: ", version)
 	if version == gDataVersion {
-		log.Println("Data Already Loaded")
 		return
 	}
 	log.Println("Reload Data")
@@ -105,8 +104,6 @@ func parseCards(dirpath string, desc entity.Desc) (cards []entity.Card) {
 		card := entity.Card{Desc: desc, Content: file.Content}
 		cards = append(cards, card)
 	}
-
-	log.Println("Get Cards: ", cards)
 
 	return cards
 }
