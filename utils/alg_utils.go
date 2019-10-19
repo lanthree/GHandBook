@@ -43,7 +43,7 @@ func (q *Stack) Pop() string {
 	if len(*q) == 1 {
 		*q = Stack{}
 	} else {
-		*q = (*q)[0 : len(*q)-2]
+		*q = (*q)[0 : len(*q)-1]
 	}
 
 	return head
