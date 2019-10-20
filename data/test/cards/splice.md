@@ -2,11 +2,31 @@
 
 ## Description
 
-The list::splice() is a built-in function in C++ STL which is used to transfer elements from one list to another
+> 这厮一段引用
+
+列表测试啊啊啊啊啊
+
++ 123124
++ 超级多喝水
++ 大怒
+
+列表测试222222
+
+1. 适当的好方法
+2. 大撒上点
+
+表格测试等等等等等等
+
+| 表头1 | 表头2 | 表头3 |
+|:--:|:--:|:--:|
+|阿斯顿|收到|辅导费|
+|asd|阿斯顿|发热|
+
+The `list::splice()` is a **built-in** [function](http://qq.com) in C++ STL which is used to *transfer* elements from one list to another
 
 ## Example
 
-```
+```c++
 #include<iostream>
 #include<list>
 
