@@ -13,4 +13,4 @@ var SecDescFile string = "/desc.json"
 var CardsDirPath string = "/cards"
 
 // RandomCardsNumByOneQuery 一次随机获取卡片返回的数量
-var RandomCardsNumByOneQuery int = 1
+var RandomCardsNumByOneQuery int = 5
